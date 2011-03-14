@@ -26,6 +26,7 @@
 		B35A4851132E387A003817DA /* UIColor+AMMoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A484F132E387A003817DA /* UIColor+AMMoreColors.m */; };
 		B35A4854132E3892003817DA /* AMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A4852132E3892003817DA /* AMUtility.m */; };
 		B35A4855132E3892003817DA /* AMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A4853132E3892003817DA /* AMUtility.h */; };
+		B35A494B132E3BA5003817DA /* AMLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A494A132E3BA5003817DA /* AMLogMacros.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		B35A484F132E387A003817DA /* UIColor+AMMoreColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AMMoreColors.m"; sourceTree = "<group>"; };
 		B35A4852132E3892003817DA /* AMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtility.m; sourceTree = "<group>"; };
 		B35A4853132E3892003817DA /* AMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtility.h; sourceTree = "<group>"; };
+		B35A494A132E3BA5003817DA /* AMLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMLogMacros.h; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libAMStuff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMStuff.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 		B35A481B132E3813003817DA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				B35A494A132E3BA5003817DA /* AMLogMacros.h */,
 				B35A4852132E3892003817DA /* AMUtility.m */,
 				B35A4853132E3892003817DA /* AMUtility.h */,
 				B35A484E132E387A003817DA /* UIColor+AMMoreColors.h */,
@@ -156,6 +159,7 @@
 				B35A47E2132E337C003817DA /* AMGetImageCall.h in Headers */,
 				B35A4850132E387A003817DA /* UIColor+AMMoreColors.h in Headers */,
 				B35A4855132E3892003817DA /* AMUtility.h in Headers */,
+				B35A494B132E3BA5003817DA /* AMLogMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
