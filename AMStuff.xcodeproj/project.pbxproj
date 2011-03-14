@@ -27,6 +27,10 @@
 		B35A4854132E3892003817DA /* AMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A4852132E3892003817DA /* AMUtility.m */; };
 		B35A4855132E3892003817DA /* AMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A4853132E3892003817DA /* AMUtility.h */; };
 		B35A494B132E3BA5003817DA /* AMLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A494A132E3BA5003817DA /* AMLogMacros.h */; };
+		B35A498F132E3E20003817DA /* UIColor+AMHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A498D132E3E20003817DA /* UIColor+AMHexString.h */; };
+		B35A4990132E3E20003817DA /* UIColor+AMHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A498E132E3E20003817DA /* UIColor+AMHexString.m */; };
+		B35A4993132E3E47003817DA /* NSString+AMHexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A4991132E3E47003817DA /* NSString+AMHexColor.h */; };
+		B35A4994132E3E47003817DA /* NSString+AMHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A4992132E3E47003817DA /* NSString+AMHexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,10 @@
 		B35A4852132E3892003817DA /* AMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtility.m; sourceTree = "<group>"; };
 		B35A4853132E3892003817DA /* AMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtility.h; sourceTree = "<group>"; };
 		B35A494A132E3BA5003817DA /* AMLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMLogMacros.h; sourceTree = "<group>"; };
+		B35A498D132E3E20003817DA /* UIColor+AMHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AMHexString.h"; sourceTree = "<group>"; };
+		B35A498E132E3E20003817DA /* UIColor+AMHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AMHexString.m"; sourceTree = "<group>"; };
+		B35A4991132E3E47003817DA /* NSString+AMHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AMHexColor.h"; sourceTree = "<group>"; };
+		B35A4992132E3E47003817DA /* NSString+AMHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AMHexColor.m"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libAMStuff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMStuff.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B35A481B132E3813003817DA /* Base */,
+				B35A4988132E3DE5003817DA /* AMHexColor */,
 				B35A47CD132E334B003817DA /* AMWebService */,
 				B35A47B7132E3309003817DA /* AMViewController */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
@@ -141,6 +150,17 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		B35A4988132E3DE5003817DA /* AMHexColor */ = {
+			isa = PBXGroup;
+			children = (
+				B35A4991132E3E47003817DA /* NSString+AMHexColor.h */,
+				B35A4992132E3E47003817DA /* NSString+AMHexColor.m */,
+				B35A498D132E3E20003817DA /* UIColor+AMHexString.h */,
+				B35A498E132E3E20003817DA /* UIColor+AMHexString.m */,
+			);
+			name = AMHexColor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -160,6 +180,8 @@
 				B35A4850132E387A003817DA /* UIColor+AMMoreColors.h in Headers */,
 				B35A4855132E3892003817DA /* AMUtility.h in Headers */,
 				B35A494B132E3BA5003817DA /* AMLogMacros.h in Headers */,
+				B35A498F132E3E20003817DA /* UIColor+AMHexString.h in Headers */,
+				B35A4993132E3E47003817DA /* NSString+AMHexColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +242,8 @@
 				B35A47E3132E337C003817DA /* AMGetImageCall.m in Sources */,
 				B35A4851132E387A003817DA /* UIColor+AMMoreColors.m in Sources */,
 				B35A4854132E3892003817DA /* AMUtility.m in Sources */,
+				B35A4990132E3E20003817DA /* UIColor+AMHexString.m in Sources */,
+				B35A4994132E3E47003817DA /* NSString+AMHexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
