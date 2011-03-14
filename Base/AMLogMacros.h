@@ -17,6 +17,6 @@
 #endif
 
 #define LOG_WARNING(fmt, ...)   (NSLog(@"WARN: %s " fmt, __PRETTY_FUNCTION__, ##__VA_ARGS__));
-#define LOG_ERROR(fmt, ...) NSLog(@"ERR: %s " fmt, __PRETTY_FUNCTION__, ##__VA_ARGS__)
+#define LOG_ERROR(fmt, ...)		(NSLog(@"ERR: %s " fmt, __PRETTY_FUNCTION__, ##__VA_ARGS__));
 
 #define AMFourCC2Str(code) (char[5]){(code >> 24) & 0xFF, (code >> 16) & 0xFF, (code >> 8) & 0xFF, code & 0xFF, 0}
