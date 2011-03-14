@@ -22,6 +22,10 @@
 		B35A47E1132E337C003817DA /* AMWebServiceCallSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A47D8132E337C003817DA /* AMWebServiceCallSession.m */; };
 		B35A47E2132E337C003817DA /* AMGetImageCall.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A47D9132E337C003817DA /* AMGetImageCall.h */; };
 		B35A47E3132E337C003817DA /* AMGetImageCall.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A47DA132E337C003817DA /* AMGetImageCall.m */; };
+		B35A4850132E387A003817DA /* UIColor+AMMoreColors.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A484E132E387A003817DA /* UIColor+AMMoreColors.h */; };
+		B35A4851132E387A003817DA /* UIColor+AMMoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A484F132E387A003817DA /* UIColor+AMMoreColors.m */; };
+		B35A4854132E3892003817DA /* AMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A4852132E3892003817DA /* AMUtility.m */; };
+		B35A4855132E3892003817DA /* AMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A4853132E3892003817DA /* AMUtility.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		B35A47D8132E337C003817DA /* AMWebServiceCallSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMWebServiceCallSession.m; sourceTree = "<group>"; };
 		B35A47D9132E337C003817DA /* AMGetImageCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGetImageCall.h; sourceTree = "<group>"; };
 		B35A47DA132E337C003817DA /* AMGetImageCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGetImageCall.m; sourceTree = "<group>"; };
+		B35A484E132E387A003817DA /* UIColor+AMMoreColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AMMoreColors.h"; sourceTree = "<group>"; };
+		B35A484F132E387A003817DA /* UIColor+AMMoreColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AMMoreColors.m"; sourceTree = "<group>"; };
+		B35A4852132E3892003817DA /* AMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtility.m; sourceTree = "<group>"; };
+		B35A4853132E3892003817DA /* AMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtility.h; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libAMStuff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMStuff.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,6 +74,7 @@
 		0867D691FE84028FC02AAC07 /* AMStuff */ = {
 			isa = PBXGroup;
 			children = (
+				B35A481B132E3813003817DA /* Base */,
 				B35A47CD132E334B003817DA /* AMWebService */,
 				B35A47B7132E3309003817DA /* AMViewController */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
@@ -118,6 +127,17 @@
 			path = AMWebService;
 			sourceTree = "<group>";
 		};
+		B35A481B132E3813003817DA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B35A4852132E3892003817DA /* AMUtility.m */,
+				B35A4853132E3892003817DA /* AMUtility.h */,
+				B35A484E132E387A003817DA /* UIColor+AMMoreColors.h */,
+				B35A484F132E387A003817DA /* UIColor+AMMoreColors.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -134,6 +154,8 @@
 				B35A47DE132E337C003817DA /* AMWebServiceSession.h in Headers */,
 				B35A47E0132E337C003817DA /* AMWebServiceCallSession.h in Headers */,
 				B35A47E2132E337C003817DA /* AMGetImageCall.h in Headers */,
+				B35A4850132E387A003817DA /* UIColor+AMMoreColors.h in Headers */,
+				B35A4855132E3892003817DA /* AMUtility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +214,8 @@
 				B35A47DF132E337C003817DA /* AMWebServiceSession.m in Sources */,
 				B35A47E1132E337C003817DA /* AMWebServiceCallSession.m in Sources */,
 				B35A47E3132E337C003817DA /* AMGetImageCall.m in Sources */,
+				B35A4851132E387A003817DA /* UIColor+AMMoreColors.m in Sources */,
+				B35A4854132E3892003817DA /* AMUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
