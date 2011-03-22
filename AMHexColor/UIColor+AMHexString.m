@@ -8,6 +8,8 @@
 
 #import "UIColor+AMHexString.h"
 
+#import "NSString+AMHexString.h"
+
 @implementation UIColor (AMHexString)
 
 + (UIColor*) am_colorWithHexString:(NSString *)string alpha:(CGFloat)alpha
@@ -26,9 +28,9 @@
 		NSString *greenString = [string substringWithRange:NSMakeRange(2+startIndex, 2)];
 		NSString *blueString = [string substringWithRange:NSMakeRange(4+startIndex, 2)];
 		
-		color[0] = [redString hexValue];
-		color[1] = [greenString hexValue];
-		color[2] = [blueString hexValue];
+		color[0] = [redString am_hexValue];
+		color[1] = [greenString am_hexValue];
+		color[2] = [blueString am_hexValue];
 	}
 	return [UIColor colorWithRed:color[0]/0xff
 						   green:color[1]/0xff
