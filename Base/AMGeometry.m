@@ -51,7 +51,7 @@ CGRect AMRectRectWithSizeCenteredInRect( CGSize size, CGRect referenceRect )
 	return rect;
 }
 
-extern CGSize AMSizeAspectFitToWidth( CGSize size, CGFloat width )
+CGSize AMSizeAspectFitToWidth( CGSize size, CGFloat width )
 {
 	CGSize newSize;
 	newSize.width = width;
@@ -60,10 +60,26 @@ extern CGSize AMSizeAspectFitToWidth( CGSize size, CGFloat width )
 }
 
 
-extern CGSize AMSizeAspectFitToHeight( CGSize size, CGFloat height )
+CGSize AMSizeAspectFitToHeight( CGSize size, CGFloat height )
 {
 	CGSize newSize;
 	newSize.height = height;
 	newSize.width = size.width * ( newSize.height / size.height );
 	return newSize;
+}
+
+
+CGPoint AMPointClampedToRect( CGPoint point, CGRect rect )
+{
+    point.x = MAX(point.x, CGRectGetMinX(rect));
+    point.x = MIN(point.x, CGRectGetMaxX(rect));
+    point.y = MAX(point.y, CGRectGetMinY(rect));
+    point.y = MIN(point.y, CGRectGetMaxY(rect));
+
+//    if( point.x < CGRectGetMinX(rect) ) point.x = CGRectGetMinX(rect);
+//    if( point.x > CGRectGetMaxX(rect) ) point.x = CGRectGetMaxX(rect);
+//    if( point.y < CGRectGetMinY(rect) ) point.y = CGRectGetMinY(rect);
+//    if( point.y > CGRectGetMaxY(rect) ) point.y = CGRectGetMaxY(rect);
+    
+    return point;
 }

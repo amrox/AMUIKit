@@ -25,6 +25,8 @@ extern "C" {
     extern CGRect AMRectInsetWithAspectRatio( CGRect rect, CGFloat aspectRatio );
     extern CGSize AMSizeAspectFitToWidth( CGSize size, CGFloat width );
     extern CGSize AMSizeAspectFitToHeight( CGSize size, CGFloat height );
+    extern CGPoint AMPointClampedToRect( CGPoint point, CGRect rect );
+    
     
 #ifdef __cplusplus
 }
