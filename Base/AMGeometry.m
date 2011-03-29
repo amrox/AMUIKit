@@ -75,11 +75,6 @@ CGPoint AMPointClampedToRect( CGPoint point, CGRect rect )
     point.x = MIN(point.x, CGRectGetMaxX(rect));
     point.y = MAX(point.y, CGRectGetMinY(rect));
     point.y = MIN(point.y, CGRectGetMaxY(rect));
-
-//    if( point.x < CGRectGetMinX(rect) ) point.x = CGRectGetMinX(rect);
-//    if( point.x > CGRectGetMaxX(rect) ) point.x = CGRectGetMaxX(rect);
-//    if( point.y < CGRectGetMinY(rect) ) point.y = CGRectGetMinY(rect);
-//    if( point.y > CGRectGetMaxY(rect) ) point.y = CGRectGetMaxY(rect);
     
     return point;
 }
