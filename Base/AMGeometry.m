@@ -3,11 +3,10 @@
 //  AMSpringboardView
 //
 //  Created by Andy Mroczkowski on 3/6/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Andy Mroczkowski. All rights reserved.
 //
 
 #import "AMGeometry.h"
-
 
 
 CGRect AMRectInsetWithAspectRatio( CGRect rect, CGFloat insetRatio )
@@ -34,13 +33,15 @@ CGRect AMRectMakeWithOriginAndSize( CGPoint origin, CGSize size )
 	return CGRectMake(origin.x, origin.y, size.width, size.height);
 }
 
-extern CGRect AMRectMakeWithCenterAndSize( CGPoint center, CGSize size )
+
+CGRect AMRectMakeWithCenterAndSize( CGPoint center, CGSize size )
 {
     return CGRectMake(center.x - size.width/2.,
                       center.y - size.height/2., 
                       size.width,
                       size.height);
 }
+
 
 CGRect AMRectRectWithSizeCenteredInRect( CGSize size, CGRect referenceRect )
 {
@@ -50,6 +51,7 @@ CGRect AMRectRectWithSizeCenteredInRect( CGSize size, CGRect referenceRect )
 	rect.origin.y = referenceRect.origin.y + (referenceRect.size.height-rect.size.height)/2.;
 	return rect;
 }
+
 
 CGSize AMSizeAspectFitToWidth( CGSize size, CGFloat width )
 {
