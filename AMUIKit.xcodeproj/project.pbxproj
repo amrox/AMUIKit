@@ -15,19 +15,19 @@
 		B3A809D41369435C009266D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3A809D21369435C009266D9 /* InfoPlist.strings */; };
 		B3A809D71369435C009266D9 /* AMUIKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3A809D61369435C009266D9 /* AMUIKitTests.h */; };
 		B3A809D91369435C009266D9 /* AMUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A809D81369435C009266D9 /* AMUIKitTests.m */; };
-		B3F63EF51369441F003BFC05 /* AMChildViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EE91369441F003BFC05 /* AMChildViewController.h */; };
-		B3F63EF61369441F003BFC05 /* AMParentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEA1369441F003BFC05 /* AMParentViewController.h */; };
-		B3F63EF71369441F003BFC05 /* AMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEB1369441F003BFC05 /* AMUIKit.h */; };
+		B3F63EF51369441F003BFC05 /* AMChildViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EE91369441F003BFC05 /* AMChildViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F63EF61369441F003BFC05 /* AMParentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEA1369441F003BFC05 /* AMParentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F63EF71369441F003BFC05 /* AMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEB1369441F003BFC05 /* AMUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F63EF81369441F003BFC05 /* AMUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EEC1369441F003BFC05 /* AMUIKit.m */; };
-		B3F63EF91369441F003BFC05 /* NSString+AMHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EED1369441F003BFC05 /* NSString+AMHexString.h */; };
+		B3F63EF91369441F003BFC05 /* NSString+AMHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EED1369441F003BFC05 /* NSString+AMHexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F63EFA1369441F003BFC05 /* NSString+AMHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EEE1369441F003BFC05 /* NSString+AMHexString.m */; };
-		B3F63EFB1369441F003BFC05 /* UIColor+AMHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEF1369441F003BFC05 /* UIColor+AMHexString.h */; };
+		B3F63EFB1369441F003BFC05 /* UIColor+AMHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEF1369441F003BFC05 /* UIColor+AMHexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F63EFC1369441F003BFC05 /* UIColor+AMHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EF01369441F003BFC05 /* UIColor+AMHexString.m */; };
-		B3F63EFD1369441F003BFC05 /* UIColor+AMMoreColors.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EF11369441F003BFC05 /* UIColor+AMMoreColors.h */; };
+		B3F63EFD1369441F003BFC05 /* UIColor+AMMoreColors.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EF11369441F003BFC05 /* UIColor+AMMoreColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F63EFE1369441F003BFC05 /* UIColor+AMMoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EF21369441F003BFC05 /* UIColor+AMMoreColors.m */; };
-		B3F63EFF1369441F003BFC05 /* UIViewController+AMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EF31369441F003BFC05 /* UIViewController+AMViewController.h */; };
+		B3F63EFF1369441F003BFC05 /* UIViewController+AMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EF31369441F003BFC05 /* UIViewController+AMViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F63F001369441F003BFC05 /* UIViewController+AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EF41369441F003BFC05 /* UIViewController+AMViewController.m */; };
-		B3F63F0413694522003BFC05 /* UIViewController+DefaultNib.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63F0213694522003BFC05 /* UIViewController+DefaultNib.h */; };
+		B3F63F0413694522003BFC05 /* UIViewController+DefaultNib.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63F0213694522003BFC05 /* UIViewController+DefaultNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F63F0513694522003BFC05 /* UIViewController+DefaultNib.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63F0313694522003BFC05 /* UIViewController+DefaultNib.m */; };
 /* End PBXBuildFile section */
 
@@ -364,6 +364,7 @@
 				GCC_PREFIX_HEADER = "AMUIKit/AMUIKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 			};
 			name = Debug;
 		};
@@ -376,6 +377,7 @@
 				GCC_PREFIX_HEADER = "AMUIKit/AMUIKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 			};
 			name = Release;
 		};
