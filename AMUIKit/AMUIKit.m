@@ -1,12 +1,3 @@
-//
-//  Utility.m
-//  GeoTick
-//
-//  Created by Andy Mroczkowski on 3/10/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
-
 NSString* AMGetUUID()
 {
     CFUUIDRef theUUID = CFUUIDCreate(NULL);

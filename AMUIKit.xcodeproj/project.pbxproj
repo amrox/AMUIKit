@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A809BD1369435C009266D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A809BC1369435C009266D9 /* Foundation.framework */; };
+		B3A809C81369435C009266D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A809C71369435C009266D9 /* UIKit.framework */; };
+		B3A809C91369435C009266D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A809BC1369435C009266D9 /* Foundation.framework */; };
+		B3A809CB1369435C009266D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A809CA1369435C009266D9 /* CoreGraphics.framework */; };
+		B3A809CE1369435C009266D9 /* libAMUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A809B91369435C009266D9 /* libAMUIKit.a */; };
+		B3A809D41369435C009266D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3A809D21369435C009266D9 /* InfoPlist.strings */; };
+		B3A809D71369435C009266D9 /* AMUIKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3A809D61369435C009266D9 /* AMUIKitTests.h */; };
+		B3A809D91369435C009266D9 /* AMUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A809D81369435C009266D9 /* AMUIKitTests.m */; };
+		B3F63EF51369441F003BFC05 /* AMChildViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EE91369441F003BFC05 /* AMChildViewController.h */; };
+		B3F63EF61369441F003BFC05 /* AMParentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEA1369441F003BFC05 /* AMParentViewController.h */; };
+		B3F63EF71369441F003BFC05 /* AMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEB1369441F003BFC05 /* AMUIKit.h */; };
+		B3F63EF81369441F003BFC05 /* AMUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EEC1369441F003BFC05 /* AMUIKit.m */; };
+		B3F63EF91369441F003BFC05 /* NSString+AMHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EED1369441F003BFC05 /* NSString+AMHexString.h */; };
+		B3F63EFA1369441F003BFC05 /* NSString+AMHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EEE1369441F003BFC05 /* NSString+AMHexString.m */; };
+		B3F63EFB1369441F003BFC05 /* UIColor+AMHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EEF1369441F003BFC05 /* UIColor+AMHexString.h */; };
+		B3F63EFC1369441F003BFC05 /* UIColor+AMHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EF01369441F003BFC05 /* UIColor+AMHexString.m */; };
+		B3F63EFD1369441F003BFC05 /* UIColor+AMMoreColors.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EF11369441F003BFC05 /* UIColor+AMMoreColors.h */; };
+		B3F63EFE1369441F003BFC05 /* UIColor+AMMoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EF21369441F003BFC05 /* UIColor+AMMoreColors.m */; };
+		B3F63EFF1369441F003BFC05 /* UIViewController+AMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63EF31369441F003BFC05 /* UIViewController+AMViewController.h */; };
+		B3F63F001369441F003BFC05 /* UIViewController+AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63EF41369441F003BFC05 /* UIViewController+AMViewController.m */; };
+		B3F63F0413694522003BFC05 /* UIViewController+DefaultNib.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F63F0213694522003BFC05 /* UIViewController+DefaultNib.h */; };
+		B3F63F0513694522003BFC05 /* UIViewController+DefaultNib.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F63F0313694522003BFC05 /* UIViewController+DefaultNib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3A809CC1369435C009266D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A809B01369435C009266D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A809B81369435C009266D9;
+			remoteInfo = AMUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3A809B91369435C009266D9 /* libAMUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A809BC1369435C009266D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3A809C01369435C009266D9 /* AMUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMUIKit-Prefix.pch"; sourceTree = "<group>"; };
+		B3A809C61369435C009266D9 /* AMUIKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMUIKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A809C71369435C009266D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3A809CA1369435C009266D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3A809D11369435C009266D9 /* AMUIKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMUIKitTests-Info.plist"; sourceTree = "<group>"; };
+		B3A809D31369435C009266D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3A809D51369435C009266D9 /* AMUIKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMUIKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		B3A809D61369435C009266D9 /* AMUIKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMUIKitTests.h; sourceTree = "<group>"; };
+		B3A809D81369435C009266D9 /* AMUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMUIKitTests.m; sourceTree = "<group>"; };
+		B3F63EE91369441F003BFC05 /* AMChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMChildViewController.h; sourceTree = "<group>"; };
+		B3F63EEA1369441F003BFC05 /* AMParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMParentViewController.h; sourceTree = "<group>"; };
+		B3F63EEB1369441F003BFC05 /* AMUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUIKit.h; sourceTree = "<group>"; };
+		B3F63EEC1369441F003BFC05 /* AMUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUIKit.m; sourceTree = "<group>"; };
+		B3F63EED1369441F003BFC05 /* NSString+AMHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AMHexString.h"; sourceTree = "<group>"; };
+		B3F63EEE1369441F003BFC05 /* NSString+AMHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AMHexString.m"; sourceTree = "<group>"; };
+		B3F63EEF1369441F003BFC05 /* UIColor+AMHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AMHexString.h"; sourceTree = "<group>"; };
+		B3F63EF01369441F003BFC05 /* UIColor+AMHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AMHexString.m"; sourceTree = "<group>"; };
+		B3F63EF11369441F003BFC05 /* UIColor+AMMoreColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AMMoreColors.h"; sourceTree = "<group>"; };
+		B3F63EF21369441F003BFC05 /* UIColor+AMMoreColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AMMoreColors.m"; sourceTree = "<group>"; };
+		B3F63EF31369441F003BFC05 /* UIViewController+AMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMViewController.h"; sourceTree = "<group>"; };
+		B3F63EF41369441F003BFC05 /* UIViewController+AMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMViewController.m"; sourceTree = "<group>"; };
+		B3F63F0213694522003BFC05 /* UIViewController+DefaultNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DefaultNib.h"; path = "../../geotick/iphone/GeoTick/Classes/UIViewController+DefaultNib.h"; sourceTree = "<group>"; };
+		B3F63F0313694522003BFC05 /* UIViewController+DefaultNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DefaultNib.m"; path = "../../geotick/iphone/GeoTick/Classes/UIViewController+DefaultNib.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A809B61369435C009266D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A809BD1369435C009266D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A809C21369435C009266D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A809C81369435C009266D9 /* UIKit.framework in Frameworks */,
+				B3A809C91369435C009266D9 /* Foundation.framework in Frameworks */,
+				B3A809CB1369435C009266D9 /* CoreGraphics.framework in Frameworks */,
+				B3A809CE1369435C009266D9 /* libAMUIKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A809AE1369435C009266D9 = {
+			isa = PBXGroup;
+			children = (
+				B3A809BE1369435C009266D9 /* AMUIKit */,
+				B3A809CF1369435C009266D9 /* AMUIKitTests */,
+				B3A809BB1369435C009266D9 /* Frameworks */,
+				B3A809BA1369435C009266D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A809BA1369435C009266D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A809B91369435C009266D9 /* libAMUIKit.a */,
+				B3A809C61369435C009266D9 /* AMUIKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A809BB1369435C009266D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A809BC1369435C009266D9 /* Foundation.framework */,
+				B3A809C71369435C009266D9 /* UIKit.framework */,
+				B3A809CA1369435C009266D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3A809BE1369435C009266D9 /* AMUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B3F63EEB1369441F003BFC05 /* AMUIKit.h */,
+				B3F63EEC1369441F003BFC05 /* AMUIKit.m */,
+				B3F63EE91369441F003BFC05 /* AMChildViewController.h */,
+				B3F63EEA1369441F003BFC05 /* AMParentViewController.h */,
+				B3F63EED1369441F003BFC05 /* NSString+AMHexString.h */,
+				B3F63EEE1369441F003BFC05 /* NSString+AMHexString.m */,
+				B3F63EEF1369441F003BFC05 /* UIColor+AMHexString.h */,
+				B3F63EF01369441F003BFC05 /* UIColor+AMHexString.m */,
+				B3F63EF11369441F003BFC05 /* UIColor+AMMoreColors.h */,
+				B3F63EF21369441F003BFC05 /* UIColor+AMMoreColors.m */,
+				B3F63EF31369441F003BFC05 /* UIViewController+AMViewController.h */,
+				B3F63EF41369441F003BFC05 /* UIViewController+AMViewController.m */,
+				B3F63F0213694522003BFC05 /* UIViewController+DefaultNib.h */,
+				B3F63F0313694522003BFC05 /* UIViewController+DefaultNib.m */,
+				B3A809BF1369435C009266D9 /* Supporting Files */,
+			);
+			path = AMUIKit;
+			sourceTree = "<group>";
+		};
+		B3A809BF1369435C009266D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A809C01369435C009266D9 /* AMUIKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3A809CF1369435C009266D9 /* AMUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3A809D61369435C009266D9 /* AMUIKitTests.h */,
+				B3A809D81369435C009266D9 /* AMUIKitTests.m */,
+				B3A809D01369435C009266D9 /* Supporting Files */,
+			);
+			path = AMUIKitTests;
+			sourceTree = "<group>";
+		};
+		B3A809D01369435C009266D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A809D11369435C009266D9 /* AMUIKitTests-Info.plist */,
+				B3A809D21369435C009266D9 /* InfoPlist.strings */,
+				B3A809D51369435C009266D9 /* AMUIKitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3A809B71369435C009266D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F63EF51369441F003BFC05 /* AMChildViewController.h in Headers */,
+				B3F63EF61369441F003BFC05 /* AMParentViewController.h in Headers */,
+				B3F63EF71369441F003BFC05 /* AMUIKit.h in Headers */,
+				B3F63EF91369441F003BFC05 /* NSString+AMHexString.h in Headers */,
+				B3F63EFB1369441F003BFC05 /* UIColor+AMHexString.h in Headers */,
+				B3F63EFD1369441F003BFC05 /* UIColor+AMMoreColors.h in Headers */,
+				B3F63EFF1369441F003BFC05 /* UIViewController+AMViewController.h in Headers */,
+				B3F63F0413694522003BFC05 /* UIViewController+DefaultNib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B3A809B81369435C009266D9 /* AMUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A809DC1369435C009266D9 /* Build configuration list for PBXNativeTarget "AMUIKit" */;
+			buildPhases = (
+				B3A809B51369435C009266D9 /* Sources */,
+				B3A809B61369435C009266D9 /* Frameworks */,
+				B3A809B71369435C009266D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMUIKit;
+			productName = AMUIKit;
+			productReference = B3A809B91369435C009266D9 /* libAMUIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3A809C51369435C009266D9 /* AMUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A809DF1369435C009266D9 /* Build configuration list for PBXNativeTarget "AMUIKitTests" */;
+			buildPhases = (
+				B3A809C11369435C009266D9 /* Sources */,
+				B3A809C21369435C009266D9 /* Frameworks */,
+				B3A809C31369435C009266D9 /* Resources */,
+				B3A809C41369435C009266D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A809CD1369435C009266D9 /* PBXTargetDependency */,
+			);
+			name = AMUIKitTests;
+			productName = AMUIKitTests;
+			productReference = B3A809C61369435C009266D9 /* AMUIKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A809B01369435C009266D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MindSnacks;
+			};
+			buildConfigurationList = B3A809B31369435C009266D9 /* Build configuration list for PBXProject "AMUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3A809AE1369435C009266D9;
+			productRefGroup = B3A809BA1369435C009266D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A809B81369435C009266D9 /* AMUIKit */,
+				B3A809C51369435C009266D9 /* AMUIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A809C31369435C009266D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A809D41369435C009266D9 /* InfoPlist.strings in Resources */,
+				B3A809D71369435C009266D9 /* AMUIKitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3A809C41369435C009266D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A809B51369435C009266D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F63EF81369441F003BFC05 /* AMUIKit.m in Sources */,
+				B3F63EFA1369441F003BFC05 /* NSString+AMHexString.m in Sources */,
+				B3F63EFC1369441F003BFC05 /* UIColor+AMHexString.m in Sources */,
+				B3F63EFE1369441F003BFC05 /* UIColor+AMMoreColors.m in Sources */,
+				B3F63F001369441F003BFC05 /* UIViewController+AMViewController.m in Sources */,
+				B3F63F0513694522003BFC05 /* UIViewController+DefaultNib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A809C11369435C009266D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A809D91369435C009266D9 /* AMUIKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3A809CD1369435C009266D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A809B81369435C009266D9 /* AMUIKit */;
+			targetProxy = B3A809CC1369435C009266D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3A809D21369435C009266D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3A809D31369435C009266D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3A809DA1369435C009266D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3A809DB1369435C009266D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B3A809DD1369435C009266D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/AMUIKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMUIKit/AMUIKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3A809DE1369435C009266D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/AMUIKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMUIKit/AMUIKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3A809E01369435C009266D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMUIKitTests/AMUIKitTests-Prefix.pch";
+				INFOPLIST_FILE = "AMUIKitTests/AMUIKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3A809E11369435C009266D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMUIKitTests/AMUIKitTests-Prefix.pch";
+				INFOPLIST_FILE = "AMUIKitTests/AMUIKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A809B31369435C009266D9 /* Build configuration list for PBXProject "AMUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A809DA1369435C009266D9 /* Debug */,
+				B3A809DB1369435C009266D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A809DC1369435C009266D9 /* Build configuration list for PBXNativeTarget "AMUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A809DD1369435C009266D9 /* Debug */,
+				B3A809DE1369435C009266D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A809DF1369435C009266D9 /* Build configuration list for PBXNativeTarget "AMUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A809E01369435C009266D9 /* Debug */,
+				B3A809E11369435C009266D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A809B01369435C009266D9 /* Project object */;
+}
